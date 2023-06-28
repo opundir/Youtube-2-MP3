@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Montserrat&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  background: linear-gradient(45deg, #0093E9,#80D0C7,#FFFFFF)
+}
+
+.app{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 0rem;
+}
+
+.logo{
+  font-family: 'Mogra', sans-serif;
+  font-weight: 900;
+  color: rgb(34, 90, 97);
+  background-color: #fff;
+  display: flex;
+  font-size: 40px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.content_title{
+  font-weight: 700;
+  font-size: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content_description{
+  font-weight: 400;
+  font-size: 30px;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form .form_input{
+  max-width: 500px;
+  min-width: 300px;
+  height: 25px;
+  border-radius: 1ch;
+
+  background: white;
+  border: none;
+  text-indent: 19px;
+  font-size: 10px;
+  margin-bottom: 1rem;
+}
+
+.form .form_button{
+  width: 100px;
+  height: 15px;
+  background: rgb(7, 51, 53);
+  border: none;
+  outline: none;
+  color: white;
+  margin-bottom: 3rem;
+  border-radius: 3px;
+  font-size: 10px;
+}
+
+.form_button:hover{
+  background: rgb(21, 146, 153);
+  cursor: pointer;
+}
+
+.download_btn{
+  color: black;
+  margin-top: 0px;
+}
+
+.bottom_bar {
+  background-color: #1a7e8b; /* Customize the color here */
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  position: fixed;
+  font-size: 20px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.bottom_bar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+@media screen and (max-width: 600px) {
+  .content{
+    margin-top: 10rem;
+  }
+
+  .content_title{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .content{
+    margin-top: 3rem;
+  }
+
+  .content_title{
+    font-size: 40px;
+  }
+  .content_description{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .content{
+    margin-top: 3rem;
+  }
+
+  .content_title{
+    font-size: 20px;
+  }
+  .content_description{
+    font-size: 15px;
+  }
+  .form .form_input{
+    height: 25px;
+    font-size: 10px;
+    max-width: 300px;
+    min-width: 200px;
+  }
+}
