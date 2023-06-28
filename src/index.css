@@ -62,7 +62,7 @@ body{
 .form .form_input{
   max-width: 500px;
   min-width: 300px;
-  height: 25px;
+  height: 35px;
   border-radius: 1ch;
 
   background: white;
@@ -74,7 +74,7 @@ body{
 
 .form .form_button{
   width: 100px;
-  height: 15px;
+  height: 30px;
   background: rgb(7, 51, 53);
   border: none;
   outline: none;
